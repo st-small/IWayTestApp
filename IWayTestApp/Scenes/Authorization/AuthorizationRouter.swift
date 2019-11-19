@@ -24,8 +24,8 @@ public class AuthorizationRouter: NSObject, AuthorizationRoutingLogic, Authoriza
     
     // MARK: - Routing
     public func routeMain() {
-        let main = MainViewController()
-        viewController?.present(main, animated: true, completion: nil)
+        let start = IWTabBarController()
+        viewController?.present(start, animated: true, completion: nil)
     }
     
     // MARK: - Passing data

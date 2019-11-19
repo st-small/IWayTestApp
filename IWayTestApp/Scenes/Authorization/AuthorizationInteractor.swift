@@ -12,9 +12,7 @@ public protocol AuthorizationBusinessLogic {
     func makeRequest(_ request: Authorization.Model.Request)
 }
 
-public protocol AuthorizationDataStore {
-    //var name: String { get set }
-}
+public protocol AuthorizationDataStore { }
 
 public class AuthorizationInteractor: AuthorizationBusinessLogic, AuthorizationDataStore {
     

@@ -17,7 +17,7 @@ public class IWTabBarController: UITabBarController {
         let mainNavigation = UINavigationController(rootViewController: main)
         mainNavigation.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 0)
         
-        let profile = UIViewController()
+        let profile = ProfileViewController()
         let profileNavigation = UINavigationController(rootViewController: profile)
         profile.tabBarItem = UITabBarItem(tabBarSystemItem: .featured, tag: 1)
         

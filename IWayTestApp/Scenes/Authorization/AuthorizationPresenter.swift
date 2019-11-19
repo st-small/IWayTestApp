@@ -27,5 +27,4 @@ public class AuthorizationPresenter: AuthorizationPresentationLogic {
             viewController?.displayData(viewModel: .success)
         }
     }
-    
 }

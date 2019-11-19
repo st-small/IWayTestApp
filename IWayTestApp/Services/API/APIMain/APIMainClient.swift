@@ -25,6 +25,4 @@ public class APIMainClientImpl: APIMainClient {
     public func sharePosition(parameters: CoordinatesRequest, completion: @escaping (AFResult<CoordinatesResult>) -> ()) {
         performRequest(route: APIMainRouter.sharePosition(parameters), completion: completion)
     }
-    
-    
 }
