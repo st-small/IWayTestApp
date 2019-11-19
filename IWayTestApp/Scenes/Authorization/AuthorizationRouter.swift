@@ -10,7 +10,7 @@ import UIKit
 
 @objc
 public protocol AuthorizationRoutingLogic {
-    //func routeToSomewhere(segue: UIStoryboardSegue?)
+    func routeMain()
 }
 
 public protocol AuthorizationDataPassing {
@@ -18,26 +18,15 @@ public protocol AuthorizationDataPassing {
 }
 
 public class AuthorizationRouter: NSObject, AuthorizationRoutingLogic, AuthorizationDataPassing {
+    
     public weak var viewController: AuthorizationViewController?
     public var dataStore: AuthorizationDataStore?
     
     // MARK: - Routing
-    //func routeToSomewhere(segue: UIStoryboardSegue?) {
-    //  if let segue = segue {
-    //    let destinationVC = segue.destination as! SomewhereViewController
-    //    var destinationDS = destinationVC.router!.dataStore!
-    //    passDataToSomewhere(source: dataStore!, destination: &destinationDS)
-    //  } else {
-    //    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-    //    let destinationVC = storyboard.instantiateViewController(withIdentifier: "SomewhereViewController") as! SomewhereViewController
-    //    var destinationDS = destinationVC.router!.dataStore!
-    //    passDataToSomewhere(source: dataStore!, destination: &destinationDS)
-    //    navigateToSomewhere(source: viewController!, destination: destinationVC)
-    //  }
-    //}
+    public func routeMain() {
+        let main = MainViewController()
+        viewController?.present(main, animated: true, completion: nil)
+    }
     
     // MARK: - Passing data
-    //func passDataToSomewhere(source: AuthorizationDataStore, destination: inout SomewhereDataStore) {
-    //  destination.name = source.name
-    //}
 }

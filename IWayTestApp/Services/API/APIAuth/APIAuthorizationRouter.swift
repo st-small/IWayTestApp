@@ -25,7 +25,7 @@ public enum APIAuthorizationRouter: APIConfiguration {
     public var path: String {
         switch self {
         case .driverAuth:
-            return "/auth/auth"
+            return "/driver/auth/auth"
         }
     }
     

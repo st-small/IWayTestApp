@@ -49,7 +49,7 @@ public class AuthorizationInteractor: AuthorizationBusinessLogic, AuthorizationD
                         self?.presenter?.presentData(response: .fail("Something went wrong..."))
                         return
                     }
-                    self?.save(result)
+                    self?.save(result, login)
                     self?.presenter?.presentData(response: .success)
                 case .failure(let error):
                     print(error.localizedDescription)
@@ -74,7 +74,9 @@ public class AuthorizationInteractor: AuthorizationBusinessLogic, AuthorizationD
         return version + "(" + build + ")"
     }
     
-    private func save(_ tokens: Result) {
-        
+    private func save(_ tokens: Result, _ login: String) {
+        KeychainWrapper.standard.set(tokens.token, forKey: KeychainKeys.token.rawValue)
+        KeychainWrapper.standard.set(tokens.refreshToken, forKey: KeychainKeys.refresh.rawValue)
+        KeychainWrapper.standard.set(login, forKey: KeychainKeys.login.rawValue)
     }
 }

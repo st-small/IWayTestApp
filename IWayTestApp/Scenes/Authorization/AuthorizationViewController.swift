@@ -142,7 +142,7 @@ public class AuthorizationViewController: UIViewController, AuthorizationDisplay
     }
     
     private func authorizedSuccess() {
-        
+        router?.routeMain()
     }
     
     public func displayData(viewModel: Authorization.Model.ViewModel) {

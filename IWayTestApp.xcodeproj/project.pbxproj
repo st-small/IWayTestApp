@@ -28,6 +28,18 @@
 		84B642142383169A0098D2B1 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B642132383169A0098D2B1 /* ActivityIndicator.swift */; };
 		84B64217238316FB0098D2B1 /* ApplicationDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B64216238316FB0098D2B1 /* ApplicationDependency.swift */; };
 		84B64219238319270098D2B1 /* EnvironmentInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B64218238319270098D2B1 /* EnvironmentInterceptor.swift */; };
+		84B6421D238451EE0098D2B1 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6421B238451ED0098D2B1 /* KeychainWrapper.swift */; };
+		84B6421E238451EE0098D2B1 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6421C238451EE0098D2B1 /* KeychainItemAccessibility.swift */; };
+		84B64226238455D00098D2B1 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B64220238455D00098D2B1 /* MainPresenter.swift */; };
+		84B64227238455D00098D2B1 /* MainWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B64221238455D00098D2B1 /* MainWorker.swift */; };
+		84B64228238455D00098D2B1 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B64222238455D00098D2B1 /* MainRouter.swift */; };
+		84B64229238455D00098D2B1 /* MainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B64223238455D00098D2B1 /* MainModels.swift */; };
+		84B6422A238455D00098D2B1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B64224238455D00098D2B1 /* MainViewController.swift */; };
+		84B6422B238455D00098D2B1 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B64225238455D00098D2B1 /* MainInteractor.swift */; };
+		84B6422D23845A6C0098D2B1 /* russian-cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 84B6422C23845A6C0098D2B1 /* russian-cities.json */; };
+		84B6422F2384649A0098D2B1 /* APIMainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6422E2384649A0098D2B1 /* APIMainRouter.swift */; };
+		84B64231238464ED0098D2B1 /* APIMainClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B64230238464ED0098D2B1 /* APIMainClient.swift */; };
+		84B6423523847AB20098D2B1 /* IWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6423423847AB20098D2B1 /* IWTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +66,18 @@
 		84B642132383169A0098D2B1 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		84B64216238316FB0098D2B1 /* ApplicationDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDependency.swift; sourceTree = "<group>"; };
 		84B64218238319270098D2B1 /* EnvironmentInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentInterceptor.swift; sourceTree = "<group>"; };
+		84B6421B238451ED0098D2B1 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		84B6421C238451EE0098D2B1 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		84B64220238455D00098D2B1 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		84B64221238455D00098D2B1 /* MainWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWorker.swift; sourceTree = "<group>"; };
+		84B64222238455D00098D2B1 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		84B64223238455D00098D2B1 /* MainModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModels.swift; sourceTree = "<group>"; };
+		84B64224238455D00098D2B1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		84B64225238455D00098D2B1 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		84B6422C23845A6C0098D2B1 /* russian-cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "russian-cities.json"; sourceTree = "<group>"; };
+		84B6422E2384649A0098D2B1 /* APIMainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMainRouter.swift; sourceTree = "<group>"; };
+		84B64230238464ED0098D2B1 /* APIMainClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMainClient.swift; sourceTree = "<group>"; };
+		84B6423423847AB20098D2B1 /* IWTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +133,7 @@
 				84B641E0238309CF0098D2B1 /* LaunchScreen.storyboard */,
 				84B641E3238309CF0098D2B1 /* Info.plist */,
 				84B64206238313850098D2B1 /* Constants.swift */,
+				84B6422C23845A6C0098D2B1 /* russian-cities.json */,
 			);
 			path = Environment;
 			sourceTree = "<group>";
@@ -118,6 +143,7 @@
 			children = (
 				84B64209238315D40098D2B1 /* API */,
 				84B64215238316ED0098D2B1 /* DependencyInjection */,
+				84B6421A238451D90098D2B1 /* Keychain */,
 				84B642122383168E0098D2B1 /* UIDecorators */,
 			);
 			path = Services;
@@ -126,7 +152,9 @@
 		84B641EB23830A000098D2B1 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				84B6423423847AB20098D2B1 /* IWTabBarController.swift */,
 				84B642052383120E0098D2B1 /* Authorization */,
+				84B6421F238455AF0098D2B1 /* Main */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -174,8 +202,8 @@
 			isa = PBXGroup;
 			children = (
 				84B6420A238315DF0098D2B1 /* APIConfiguration.swift */,
-				84B6420E238316400098D2B1 /* APIAuthorizationRouter.swift */,
-				84B642102383165E0098D2B1 /* APIAuthorizationClient.swift */,
+				84B642322384748E0098D2B1 /* APIAuth */,
+				84B642332384749F0098D2B1 /* APIMain */,
 				84B64218238319270098D2B1 /* EnvironmentInterceptor.swift */,
 			);
 			path = API;
@@ -195,6 +223,46 @@
 				84B64216238316FB0098D2B1 /* ApplicationDependency.swift */,
 			);
 			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		84B6421A238451D90098D2B1 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				84B6421C238451EE0098D2B1 /* KeychainItemAccessibility.swift */,
+				84B6421B238451ED0098D2B1 /* KeychainWrapper.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		84B6421F238455AF0098D2B1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				84B64220238455D00098D2B1 /* MainPresenter.swift */,
+				84B64221238455D00098D2B1 /* MainWorker.swift */,
+				84B64222238455D00098D2B1 /* MainRouter.swift */,
+				84B64223238455D00098D2B1 /* MainModels.swift */,
+				84B64224238455D00098D2B1 /* MainViewController.swift */,
+				84B64225238455D00098D2B1 /* MainInteractor.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		84B642322384748E0098D2B1 /* APIAuth */ = {
+			isa = PBXGroup;
+			children = (
+				84B6420E238316400098D2B1 /* APIAuthorizationRouter.swift */,
+				84B642102383165E0098D2B1 /* APIAuthorizationClient.swift */,
+			);
+			path = APIAuth;
+			sourceTree = "<group>";
+		};
+		84B642332384749F0098D2B1 /* APIMain */ = {
+			isa = PBXGroup;
+			children = (
+				84B6422E2384649A0098D2B1 /* APIMainRouter.swift */,
+				84B64230238464ED0098D2B1 /* APIMainClient.swift */,
+			);
+			path = APIMain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B6422D23845A6C0098D2B1 /* russian-cities.json in Resources */,
 				84B641E2238309CF0098D2B1 /* LaunchScreen.storyboard in Resources */,
 				84B641DF238309CF0098D2B1 /* Assets.xcassets in Resources */,
 			);
@@ -299,20 +368,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B6422A238455D00098D2B1 /* MainViewController.swift in Sources */,
 				84B64203238312080098D2B1 /* AuthorizationViewController.swift in Sources */,
 				84B642112383165E0098D2B1 /* APIAuthorizationClient.swift in Sources */,
+				84B64226238455D00098D2B1 /* MainPresenter.swift in Sources */,
+				84B64231238464ED0098D2B1 /* APIMainClient.swift in Sources */,
 				84B6420F238316400098D2B1 /* APIAuthorizationRouter.swift in Sources */,
+				84B64227238455D00098D2B1 /* MainWorker.swift in Sources */,
 				84B64204238312080098D2B1 /* AuthorizationInteractor.swift in Sources */,
 				84B642142383169A0098D2B1 /* ActivityIndicator.swift in Sources */,
 				84B641FF238312080098D2B1 /* AuthorizationPresenter.swift in Sources */,
+				84B6423523847AB20098D2B1 /* IWTabBarController.swift in Sources */,
 				84B64217238316FB0098D2B1 /* ApplicationDependency.swift in Sources */,
 				84B64219238319270098D2B1 /* EnvironmentInterceptor.swift in Sources */,
 				84B6420B238315DF0098D2B1 /* APIConfiguration.swift in Sources */,
+				84B6421D238451EE0098D2B1 /* KeychainWrapper.swift in Sources */,
+				84B64229238455D00098D2B1 /* MainModels.swift in Sources */,
 				84B64201238312080098D2B1 /* AuthorizationRouter.swift in Sources */,
 				84B64202238312080098D2B1 /* AuthorizationModels.swift in Sources */,
 				84B641D8238309CD0098D2B1 /* AppDelegate.swift in Sources */,
+				84B6422B238455D00098D2B1 /* MainInteractor.swift in Sources */,
+				84B6422F2384649A0098D2B1 /* APIMainRouter.swift in Sources */,
+				84B6421E238451EE0098D2B1 /* KeychainItemAccessibility.swift in Sources */,
 				84B64207238313850098D2B1 /* Constants.swift in Sources */,
 				84B6420D238316120098D2B1 /* UIColor + Extension.swift in Sources */,
+				84B64228238455D00098D2B1 /* MainRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

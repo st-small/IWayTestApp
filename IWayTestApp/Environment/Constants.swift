@@ -46,10 +46,17 @@ public struct Fonts {
     }
 }
 
+// MARK: - Keychain -
+public enum KeychainKeys: String {
+    case token = "token"
+    case refresh = "refresh"
+    case login = "login"
+}
+
 // MARK: - API constants -
 public struct Server {
     struct ProductionServer {
-        static let baseURL = "https://testdriver.iwayex.com/v1/driver"
+        static let baseURL = "https://testdriver.iwayex.com/v1"
     }
 }
 

@@ -30,5 +30,10 @@ public class ApplicationDependency: DIFramework {
         container.register(APIAuthorizationClientImpl.init)
             .as(check: APIAuthorizationClient.self) {$0}
             .lifetime(.single)
+        
+        // APIMain service
+        container.register(APIMainClientImpl.init)
+            .as(check: APIMainClient.self) {$0}
+            .lifetime(.single)
     }
 }

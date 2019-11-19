@@ -12,7 +12,7 @@ public protocol APIAuthorizationClient: class {
     func driverAuth(parameters: AuthRequest, completion: @escaping (AFResult<Response>) -> ())
 }
 
-class APIAuthorizationClientImpl: APIAuthorizationClient {
+public class APIAuthorizationClientImpl: APIAuthorizationClient {
     
     @discardableResult
     private func performRequest<T: Decodable>(route: APIAuthorizationRouter, decoder: JSONDecoder = JSONDecoder(), completion: @escaping (AFResult<T>)->()) -> DataRequest {
