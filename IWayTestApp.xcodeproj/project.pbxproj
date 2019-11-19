@@ -8,20 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		84B641D8238309CD0098D2B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B641D7238309CD0098D2B1 /* AppDelegate.swift */; };
-		84B641DA238309CD0098D2B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B641D9238309CD0098D2B1 /* ViewController.swift */; };
-		84B641DD238309CD0098D2B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B641DB238309CD0098D2B1 /* Main.storyboard */; };
 		84B641DF238309CF0098D2B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B641DE238309CF0098D2B1 /* Assets.xcassets */; };
 		84B641E2238309CF0098D2B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B641E0238309CF0098D2B1 /* LaunchScreen.storyboard */; };
+		84B641F3238310330098D2B1 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B641EE238310330098D2B1 /* SVProgressHUD.framework */; };
+		84B641F4238310330098D2B1 /* SwiftLazy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B641EF238310330098D2B1 /* SwiftLazy.framework */; };
+		84B641F5238310330098D2B1 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B641F0238310330098D2B1 /* SnapKit.framework */; };
+		84B641F6238310330098D2B1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B641F1238310330098D2B1 /* Alamofire.framework */; };
+		84B641F7238310330098D2B1 /* DITranquillity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B641F2238310330098D2B1 /* DITranquillity.framework */; };
+		84B641FF238312080098D2B1 /* AuthorizationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B641F9238312080098D2B1 /* AuthorizationPresenter.swift */; };
+		84B64201238312080098D2B1 /* AuthorizationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B641FB238312080098D2B1 /* AuthorizationRouter.swift */; };
+		84B64202238312080098D2B1 /* AuthorizationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B641FC238312080098D2B1 /* AuthorizationModels.swift */; };
+		84B64203238312080098D2B1 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B641FD238312080098D2B1 /* AuthorizationViewController.swift */; };
+		84B64204238312080098D2B1 /* AuthorizationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B641FE238312080098D2B1 /* AuthorizationInteractor.swift */; };
+		84B64207238313850098D2B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B64206238313850098D2B1 /* Constants.swift */; };
+		84B6420B238315DF0098D2B1 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6420A238315DF0098D2B1 /* APIConfiguration.swift */; };
+		84B6420D238316120098D2B1 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6420C238316120098D2B1 /* UIColor + Extension.swift */; };
+		84B6420F238316400098D2B1 /* APIAuthorizationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6420E238316400098D2B1 /* APIAuthorizationRouter.swift */; };
+		84B642112383165E0098D2B1 /* APIAuthorizationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B642102383165E0098D2B1 /* APIAuthorizationClient.swift */; };
+		84B642142383169A0098D2B1 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B642132383169A0098D2B1 /* ActivityIndicator.swift */; };
+		84B64217238316FB0098D2B1 /* ApplicationDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B64216238316FB0098D2B1 /* ApplicationDependency.swift */; };
+		84B64219238319270098D2B1 /* EnvironmentInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B64218238319270098D2B1 /* EnvironmentInterceptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84B641D4238309CD0098D2B1 /* IWayTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IWayTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B641D7238309CD0098D2B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84B641D9238309CD0098D2B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84B641DC238309CD0098D2B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84B641DE238309CF0098D2B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B641E1238309CF0098D2B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B641E3238309CF0098D2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B641EE238310330098D2B1 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		84B641EF238310330098D2B1 /* SwiftLazy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftLazy.framework; path = Carthage/Build/iOS/SwiftLazy.framework; sourceTree = "<group>"; };
+		84B641F0238310330098D2B1 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		84B641F1238310330098D2B1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		84B641F2238310330098D2B1 /* DITranquillity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DITranquillity.framework; path = Carthage/Build/iOS/DITranquillity.framework; sourceTree = "<group>"; };
+		84B641F9238312080098D2B1 /* AuthorizationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationPresenter.swift; sourceTree = "<group>"; };
+		84B641FB238312080098D2B1 /* AuthorizationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationRouter.swift; sourceTree = "<group>"; };
+		84B641FC238312080098D2B1 /* AuthorizationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationModels.swift; sourceTree = "<group>"; };
+		84B641FD238312080098D2B1 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		84B641FE238312080098D2B1 /* AuthorizationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationInteractor.swift; sourceTree = "<group>"; };
+		84B64206238313850098D2B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84B6420A238315DF0098D2B1 /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		84B6420C238316120098D2B1 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		84B6420E238316400098D2B1 /* APIAuthorizationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIAuthorizationRouter.swift; sourceTree = "<group>"; };
+		84B642102383165E0098D2B1 /* APIAuthorizationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIAuthorizationClient.swift; sourceTree = "<group>"; };
+		84B642132383169A0098D2B1 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		84B64216238316FB0098D2B1 /* ApplicationDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDependency.swift; sourceTree = "<group>"; };
+		84B64218238319270098D2B1 /* EnvironmentInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentInterceptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +61,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B641F3238310330098D2B1 /* SVProgressHUD.framework in Frameworks */,
+				84B641F4238310330098D2B1 /* SwiftLazy.framework in Frameworks */,
+				84B641F5238310330098D2B1 /* SnapKit.framework in Frameworks */,
+				84B641F6238310330098D2B1 /* Alamofire.framework in Frameworks */,
+				84B641F7238310330098D2B1 /* DITranquillity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +77,7 @@
 			children = (
 				84B641D6238309CD0098D2B1 /* IWayTestApp */,
 				84B641D5238309CD0098D2B1 /* Products */,
+				84B641ED238310330098D2B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,109 @@
 		84B641D6238309CD0098D2B1 /* IWayTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				84B64208238315C90098D2B1 /* Models */,
+				84B641EB23830A000098D2B1 /* Scenes */,
+				84B641EA238309FA0098D2B1 /* Services */,
+				84B641E9238309DA0098D2B1 /* Environment */,
+				84B641EC23830C430098D2B1 /* Helpers */,
+			);
+			path = IWayTestApp;
+			sourceTree = "<group>";
+		};
+		84B641E9238309DA0098D2B1 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
 				84B641D7238309CD0098D2B1 /* AppDelegate.swift */,
-				84B641D9238309CD0098D2B1 /* ViewController.swift */,
-				84B641DB238309CD0098D2B1 /* Main.storyboard */,
 				84B641DE238309CF0098D2B1 /* Assets.xcassets */,
 				84B641E0238309CF0098D2B1 /* LaunchScreen.storyboard */,
 				84B641E3238309CF0098D2B1 /* Info.plist */,
+				84B64206238313850098D2B1 /* Constants.swift */,
 			);
-			path = IWayTestApp;
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		84B641EA238309FA0098D2B1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84B64209238315D40098D2B1 /* API */,
+				84B64215238316ED0098D2B1 /* DependencyInjection */,
+				84B642122383168E0098D2B1 /* UIDecorators */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84B641EB23830A000098D2B1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				84B642052383120E0098D2B1 /* Authorization */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		84B641EC23830C430098D2B1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84B6420C238316120098D2B1 /* UIColor + Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		84B641ED238310330098D2B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84B641F1238310330098D2B1 /* Alamofire.framework */,
+				84B641F2238310330098D2B1 /* DITranquillity.framework */,
+				84B641F0238310330098D2B1 /* SnapKit.framework */,
+				84B641EE238310330098D2B1 /* SVProgressHUD.framework */,
+				84B641EF238310330098D2B1 /* SwiftLazy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84B642052383120E0098D2B1 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				84B641F9238312080098D2B1 /* AuthorizationPresenter.swift */,
+				84B641FB238312080098D2B1 /* AuthorizationRouter.swift */,
+				84B641FC238312080098D2B1 /* AuthorizationModels.swift */,
+				84B641FD238312080098D2B1 /* AuthorizationViewController.swift */,
+				84B641FE238312080098D2B1 /* AuthorizationInteractor.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		84B64208238315C90098D2B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84B64209238315D40098D2B1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				84B6420A238315DF0098D2B1 /* APIConfiguration.swift */,
+				84B6420E238316400098D2B1 /* APIAuthorizationRouter.swift */,
+				84B642102383165E0098D2B1 /* APIAuthorizationClient.swift */,
+				84B64218238319270098D2B1 /* EnvironmentInterceptor.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		84B642122383168E0098D2B1 /* UIDecorators */ = {
+			isa = PBXGroup;
+			children = (
+				84B642132383169A0098D2B1 /* ActivityIndicator.swift */,
+			);
+			path = UIDecorators;
+			sourceTree = "<group>";
+		};
+		84B64215238316ED0098D2B1 /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				84B64216238316FB0098D2B1 /* ApplicationDependency.swift */,
+			);
+			path = DependencyInjection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +207,7 @@
 				84B641D0238309CD0098D2B1 /* Sources */,
 				84B641D1238309CD0098D2B1 /* Frameworks */,
 				84B641D2238309CD0098D2B1 /* Resources */,
+				84B641F82383103B0098D2B1 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -124,33 +258,67 @@
 			files = (
 				84B641E2238309CF0098D2B1 /* LaunchScreen.storyboard in Resources */,
 				84B641DF238309CF0098D2B1 /* Assets.xcassets in Resources */,
-				84B641DD238309CD0098D2B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84B641F82383103B0098D2B1 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftLazy.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/DITranquillity.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SVProgressHUD.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftLazy.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SnapKit.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/DITranquillity.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84B641D0238309CD0098D2B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B641DA238309CD0098D2B1 /* ViewController.swift in Sources */,
+				84B64203238312080098D2B1 /* AuthorizationViewController.swift in Sources */,
+				84B642112383165E0098D2B1 /* APIAuthorizationClient.swift in Sources */,
+				84B6420F238316400098D2B1 /* APIAuthorizationRouter.swift in Sources */,
+				84B64204238312080098D2B1 /* AuthorizationInteractor.swift in Sources */,
+				84B642142383169A0098D2B1 /* ActivityIndicator.swift in Sources */,
+				84B641FF238312080098D2B1 /* AuthorizationPresenter.swift in Sources */,
+				84B64217238316FB0098D2B1 /* ApplicationDependency.swift in Sources */,
+				84B64219238319270098D2B1 /* EnvironmentInterceptor.swift in Sources */,
+				84B6420B238315DF0098D2B1 /* APIConfiguration.swift in Sources */,
+				84B64201238312080098D2B1 /* AuthorizationRouter.swift in Sources */,
+				84B64202238312080098D2B1 /* AuthorizationModels.swift in Sources */,
 				84B641D8238309CD0098D2B1 /* AppDelegate.swift in Sources */,
+				84B64207238313850098D2B1 /* Constants.swift in Sources */,
+				84B6420D238316120098D2B1 /* UIColor + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84B641DB238309CD0098D2B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84B641DC238309CD0098D2B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84B641E0238309CF0098D2B1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,7 +452,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PTYV272Z4;
-				INFOPLIST_FILE = IWayTestApp/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/IWayTestApp/Environment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ua.kr.ssh.IWayTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +474,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PTYV272Z4;
-				INFOPLIST_FILE = IWayTestApp/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/IWayTestApp/Environment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ua.kr.ssh.IWayTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
