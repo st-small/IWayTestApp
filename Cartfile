@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire" "5.0.0-rc.3"
+github "SVProgressHUD/SVProgressHUD"
+github "SnapKit/SnapKit" ~> 5.0.0
+github "ivlevAstef/DITranquillity" ~> 3.6.3
