@@ -44,6 +44,7 @@
 		84B6424023847F9B0098D2B1 /* ProfileModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6423A23847F9B0098D2B1 /* ProfileModels.swift */; };
 		84B6424123847F9B0098D2B1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6423B23847F9B0098D2B1 /* ProfileViewController.swift */; };
 		84B6424223847F9B0098D2B1 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6423C23847F9B0098D2B1 /* ProfileInteractor.swift */; };
+		84C3D9AB23871344008BE7C9 /* Date + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3D9AA23871344008BE7C9 /* Date + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		84B6423A23847F9B0098D2B1 /* ProfileModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModels.swift; sourceTree = "<group>"; };
 		84B6423B23847F9B0098D2B1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		84B6423C23847F9B0098D2B1 /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
+		84C3D9AA23871344008BE7C9 /* Date + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				84B6420C238316120098D2B1 /* UIColor + Extension.swift */,
+				84C3D9AA23871344008BE7C9 /* Date + Extension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				84B6423F23847F9B0098D2B1 /* ProfileRouter.swift in Sources */,
 				84B641D8238309CD0098D2B1 /* AppDelegate.swift in Sources */,
 				84B6422B238455D00098D2B1 /* MainInteractor.swift in Sources */,
+				84C3D9AB23871344008BE7C9 /* Date + Extension.swift in Sources */,
 				84B6422F2384649A0098D2B1 /* APIMainRouter.swift in Sources */,
 				84B6421E238451EE0098D2B1 /* KeychainItemAccessibility.swift in Sources */,
 				84B6424023847F9B0098D2B1 /* ProfileModels.swift in Sources */,

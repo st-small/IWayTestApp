@@ -63,13 +63,14 @@ public class MainInteractor: MainBusinessLogic, MainDataStore {
         let longitude = NumberFormatter().number(from: coords.lon)?.doubleValue ?? 0
         let point = Point(lat: latitude, lng: longitude)
         let speed = Float.random(in: 0..<90.0)
-        let request = CoordinatesRequest(point: point, speed: speed, type: 1)
+        let date = Date().serverFormatDate()
+        let request = [CoordinatesRequest(point: point, speed: speed, type: 1, sent: date)]
         
         apiClient.sharePosition(parameters: request) { [weak self] (result) in
             switch result {
             case .success(_):
                 let model = MainModelResponse(coordinates: coords,
-                                              cityName: city.name)
+                                              cityName: city.name, date: date)
                 self?.presenter?.presentData(.pointShared(model))
                 self?.currentCity = nil
             case .failure(let error):

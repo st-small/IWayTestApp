@@ -11,7 +11,7 @@ import Foundation
 
 public enum APIMainRouter: APIConfiguration {
     
-    case sharePosition(_ parameters: CoordinatesRequest)
+    case sharePosition(_ parameters: [CoordinatesRequest])
     
     // MARK: - HTTPMethod
     public var method: HTTPMethod {

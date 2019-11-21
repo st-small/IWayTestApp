@@ -9,7 +9,7 @@
 import Alamofire
 
 public protocol APIMainClient: class {
-    func sharePosition(parameters: CoordinatesRequest, completion: @escaping (AFResult<CoordinatesResult>) -> ())
+    func sharePosition(parameters: [CoordinatesRequest], completion: @escaping (AFResult<CoordinatesResult>) -> ())
 }
 
 public class APIMainClientImpl: APIMainClient {
@@ -22,7 +22,7 @@ public class APIMainClientImpl: APIMainClient {
         }
     }
     
-    public func sharePosition(parameters: CoordinatesRequest, completion: @escaping (AFResult<CoordinatesResult>) -> ()) {
+    public func sharePosition(parameters: [CoordinatesRequest], completion: @escaping (AFResult<CoordinatesResult>) -> ()) {
         performRequest(route: APIMainRouter.sharePosition(parameters), completion: completion)
     }
 }

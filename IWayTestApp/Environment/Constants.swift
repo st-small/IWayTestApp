@@ -71,3 +71,7 @@ public enum ContentType: String {
     case json = "application/json"
 }
 
+// MARK: - Date formats
+public struct DateFormats {
+    public static let serverFormat = "yyyy-MM-dd HH:mm"
+}

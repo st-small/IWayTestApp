@@ -27,6 +27,7 @@ public enum Main {
 public struct MainModelResponse {
     public let coordinates: Coords
     public let cityName: String
+    public let date: Date
 }
 
 // MARK: - Local JSON Coordinates Response
@@ -49,6 +50,7 @@ public struct CoordinatesRequest: Encodable {
     public let point: Point
     public let speed: Float
     public let type: Int
+    public let sent: Date
 }
 
 // MARK: - Point

@@ -110,6 +110,7 @@ public class MainViewController: UIViewController, MainDisplayLogic {
         city: \(model.cityName)
         latitude: \(model.coordinates.lat)
         longitude: \(model.coordinates.lon)
+        date: \(model.date)
         """
         let ac = UIAlertController(title: "Point shared successfully!", message: message, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
