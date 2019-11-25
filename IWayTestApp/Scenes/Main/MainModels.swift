@@ -14,11 +14,11 @@ public enum Main {
             case sharePosition
         }
         public enum Response {
-            case pointShared(_ model: MainModelResponse)
+            case pointShared(_ models: [MainModelResponse])
             case fail(_ error: String)
         }
         public enum ViewModel {
-            case pointShared(_ model: MainModelResponse)
+            case pointShared(_ models: [MainModelResponse])
             case fail(_ error: String)
         }
     }
@@ -27,7 +27,7 @@ public enum Main {
 public struct MainModelResponse {
     public let coordinates: Coords
     public let cityName: String
-    public let date: Date
+    public let date: String
 }
 
 // MARK: - Local JSON Coordinates Response
@@ -50,7 +50,7 @@ public struct CoordinatesRequest: Encodable {
     public let point: Point
     public let speed: Float
     public let type: Int
-    public let sent: Date
+    public let sent: String
 }
 
 // MARK: - Point

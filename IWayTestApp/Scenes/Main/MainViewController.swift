@@ -26,6 +26,8 @@ public class MainViewController: UIViewController, MainDisplayLogic {
         return button
     }()
     
+    private var tableView = PointsTableView()
+    
     // MARK: - Data
     public var router: (NSObjectProtocol & MainRoutingLogic & MainDataPassing)?
     private var interactor: MainBusinessLogic?
@@ -65,6 +67,7 @@ public class MainViewController: UIViewController, MainDisplayLogic {
         
         navigationItem.title = "Share coordinates"
         prepareShareCoordinatesButton()
+        prepareTableView()
     }
     
     private func prepareShareCoordinatesButton() {
@@ -75,6 +78,14 @@ public class MainViewController: UIViewController, MainDisplayLogic {
             make.leading.equalToSuperview().offset(30)
             make.trailing.equalToSuperview().offset(-30)
             make.height.equalTo(50)
+        }
+    }
+    
+    private func prepareTableView() {
+        view.addSubview(tableView)
+        tableView.snp.remakeConstraints { make in
+            make.top.leading.trailing.equalToSuperview()
+            make.bottom.equalTo(shareButton.snp.top).offset(-50)
         }
     }
     
@@ -95,8 +106,9 @@ public class MainViewController: UIViewController, MainDisplayLogic {
     
     public func displayData(_ viewModel: Main.Model.ViewModel) {
         switch viewModel {
-        case .pointShared(let model):
-            showSucces(model)
+        case .pointShared(let models):
+            guard !models.isEmpty else { return }
+            tableView.set(models)
         case .fail(let error):
             showErrorAlert(error)
         }

@@ -10,10 +10,10 @@ import Foundation
 
 public extension Date {
     
-    func serverFormatDate() -> Date {
+    func serverFormatDate() -> String {
         let dateFormatter = formatterWithFormat(format: DateFormats.serverFormat)
         
-        return dateFormatter.date(from: dateFormatter.string(from: self))!
+        return dateFormatter.string(from: self)
     }
     
     private func formatterWithFormat(format: String, isPosixLocale: Bool = false) -> DateFormatter {

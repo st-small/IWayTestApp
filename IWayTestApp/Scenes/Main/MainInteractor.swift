@@ -19,6 +19,7 @@ public class MainInteractor: MainBusinessLogic, MainDataStore {
     // MARK: - Data
     private var cities = [CoordinatesJSONResponse]()
     private var currentCity: CoordinatesJSONResponse?
+    private var models = [MainModelResponse]()
     
     var presenter: MainPresentationLogic?
     
@@ -70,8 +71,10 @@ public class MainInteractor: MainBusinessLogic, MainDataStore {
             switch result {
             case .success(_):
                 let model = MainModelResponse(coordinates: coords,
-                                              cityName: city.name, date: date)
-                self?.presenter?.presentData(.pointShared(model))
+                                              cityName: city.name,
+                                              date: date)
+                self?.models.append(model)
+                self?.presenter?.presentData(.pointShared(self?.models ?? []))
                 self?.currentCity = nil
             case .failure(let error):
                 let error = error.localizedDescription

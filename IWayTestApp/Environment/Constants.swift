@@ -73,5 +73,5 @@ public enum ContentType: String {
 
 // MARK: - Date formats
 public struct DateFormats {
-    public static let serverFormat = "yyyy-MM-dd HH:mm"
+    public static let serverFormat = "yyyy-MM-dd HH:mm:ss"
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		848C7F93238C3D7100D4B69B /* PointsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C7F92238C3D7100D4B69B /* PointsTableView.swift */; };
+		848C7F95238C449200D4B69B /* PointTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C7F94238C449200D4B69B /* PointTableViewCell.swift */; };
 		84B641D8238309CD0098D2B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B641D7238309CD0098D2B1 /* AppDelegate.swift */; };
 		84B641DF238309CF0098D2B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B641DE238309CF0098D2B1 /* Assets.xcassets */; };
 		84B641E2238309CF0098D2B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B641E0238309CF0098D2B1 /* LaunchScreen.storyboard */; };
@@ -48,6 +50,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		848C7F92238C3D7100D4B69B /* PointsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsTableView.swift; sourceTree = "<group>"; };
+		848C7F94238C449200D4B69B /* PointTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointTableViewCell.swift; sourceTree = "<group>"; };
 		84B641D4238309CD0098D2B1 /* IWayTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IWayTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B641D7238309CD0098D2B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B641DE238309CF0098D2B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -106,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		848C7F91238C3D5300D4B69B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				848C7F92238C3D7100D4B69B /* PointsTableView.swift */,
+				848C7F94238C449200D4B69B /* PointTableViewCell.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		84B641CB238309CD0098D2B1 = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +267,7 @@
 				84B64223238455D00098D2B1 /* MainModels.swift */,
 				84B64224238455D00098D2B1 /* MainViewController.swift */,
 				84B64225238455D00098D2B1 /* MainInteractor.swift */,
+				848C7F91238C3D5300D4B69B /* Common */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -391,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848C7F95238C449200D4B69B /* PointTableViewCell.swift in Sources */,
 				84B6422A238455D00098D2B1 /* MainViewController.swift in Sources */,
 				84B64203238312080098D2B1 /* AuthorizationViewController.swift in Sources */,
 				84B642112383165E0098D2B1 /* APIAuthorizationClient.swift in Sources */,
@@ -419,6 +434,7 @@
 				84B6421E238451EE0098D2B1 /* KeychainItemAccessibility.swift in Sources */,
 				84B6424023847F9B0098D2B1 /* ProfileModels.swift in Sources */,
 				84B64207238313850098D2B1 /* Constants.swift in Sources */,
+				848C7F93238C3D7100D4B69B /* PointsTableView.swift in Sources */,
 				84B6420D238316120098D2B1 /* UIColor + Extension.swift in Sources */,
 				84B64228238455D00098D2B1 /* MainRouter.swift in Sources */,
 			);
