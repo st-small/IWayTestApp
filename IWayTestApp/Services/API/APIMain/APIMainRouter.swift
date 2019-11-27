@@ -47,6 +47,8 @@ public enum APIMainRouter: APIConfiguration {
         urlRequest.httpMethod = method.rawValue
         
         // Common Headers
+        let token = KeychainWrapper.standard.string(forKey: KeychainKeys.token.rawValue) ?? ""
+        urlRequest.setValue("Bearer \(token)", forHTTPHeaderField: HTTPHeaderField.authentication.rawValue)
         urlRequest.setValue(ContentType.json.rawValue, forHTTPHeaderField: HTTPHeaderField.acceptType.rawValue)
         urlRequest.setValue(ContentType.json.rawValue, forHTTPHeaderField: HTTPHeaderField.contentType.rawValue)
         
